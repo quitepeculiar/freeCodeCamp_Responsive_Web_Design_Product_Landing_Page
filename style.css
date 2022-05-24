@@ -1,0 +1,150 @@
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+    position: relative;
+    margin: 0 60px 0 60px;
+}
+
+.container {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+    line-height: 1;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    line-height: 1;
+    margin-block-start: 1.5;
+    margin-block-end: 1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/* nav {
+    display: block;
+    justify-content: right;
+    margin-top: 3px;
+} */
+
+/* #nav-bar {
+    overflow: hidden;
+    position: fixed;
+} */
+
+nav a:hover {
+    color: #33CCFF;
+}
+
+ul {
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #33CCFF;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 150px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#video {
+    display: block;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#header-img {
+    width: 120px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background: #FFF;
+    padding: 1em;
+}
+/* 
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+} */
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+footer nav a {
+    width: 16px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+@media (max-width: 430px) {
+  header h1,
+  header nav {
+    float: none;
+  }
+
+  header nav a {
+    margin-right: 0;
+    margin-left: 12px;
+  }
